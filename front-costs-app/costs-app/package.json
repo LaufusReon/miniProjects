@@ -10,13 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@heroui/dropdown": "^2.3.23",
-    "@heroui/input": "^2.4.24",
-    "@heroui/navbar": "^2.2.21",
-    "@heroui/system": "^2.4.19",
-    "@heroui/table": "^2.2.23",
-    "@heroui/tabs": "^2.2.20",
-    "@heroui/theme": "^2.4.19",
+    "@ant-design/v5-patch-for-react-19": "^1.0.3",
+    "@chakra-ui/react": "^3.22.0",
+    "@emotion/react": "^11.14.0",
+    "antd": "^5.26.6",
     "framer-motion": "^12.23.6",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",

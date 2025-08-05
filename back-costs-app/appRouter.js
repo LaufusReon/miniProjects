@@ -1,9 +1,12 @@
+require('dotenv').config();
+
 const express = require('express');
 const app = express();
-const port = 3000;
+const {config, postDB} = require('./appConfig');
 
-app.get('/', (req,res)=>{
-    res.send("<h2>Event listened</h2>");
-});
-
-app.listen(port);
+async function initApp() {
+    app.listen(appConfig.config.port, ()=>{
+        console.log(`Listen in port ${appConfig.config.port}`)
+    })
+}
+initApp()
