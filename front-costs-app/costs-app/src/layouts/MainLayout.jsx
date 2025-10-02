@@ -1,7 +1,6 @@
 import { Breadcrumb, Layout, theme } from 'antd';
 import NavBarDefault from '../components/navBarDefault';
-import AvatarUsers from '../components/avatarUsers';
-import LoginForm from './loginPage';
+import LoginComponent from '../components/middleware/loginPageMain';
 import RawMaterialInput from './rawMaterial';
 const { Content, Footer } = Layout;
 
@@ -28,14 +27,11 @@ function MainLayout() {
             borderRadius: borderRadiusLG,
           }}
         >
-          Content
-          <LoginForm/>
           <RawMaterialInput/>
         </div>
-        <AvatarUsers/>
       </Content>
       <Footer style={{ textAlign: 'center' }}>
-        Ant Design ©{new Date().getFullYear()} Created by Ant UED
+        Ant Design ©{new Date().getFullYear()} Created  with the supprot of Ant UED
       </Footer>
     </Layout>
   );

@@ -51,7 +51,6 @@ function NavBarDefault() {
                 items = {menuItems}
                 style={{flexBasis:'40%', justifyContent:'space-evenly'}}
             />
-            <AvatarUsers/>
         </Header>
     )
 }
